@@ -105,6 +105,7 @@ set -g tide_git_untracked_color 000000
 set -g tide_git_upstream_color 000000
 set -g tide_pwd_bg_color 444444
 ```
+-  Restart the `shell`.
 3. [Z for Fish](https://github.com/jethrokuan/z#installation) - Directory jumping
 4. [Eza](https://github.com/eza-community/eza) - `ls` replacement
 -  Installing `Eza` on `Ubuntu` or `WSL` there's a three step to install.
