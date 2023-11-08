@@ -81,7 +81,7 @@ end
 ## Fish - Plugins
 1. [Fisher](https://github.com/jorgebucaran/fisher#installation) - Plugin Manager
 2. [Tide](https://github.com/IlanCosman/tide#installation) - Fish Shell theme
--  After installation copy this config for the custom themes by editing the `_tide_init.fish` located on `~/.config/fish/conf.d/` and add this line.
+-  After installation copy this config for the custom themes by editing the `_tide_init.fish` located on `~/.config/fish/conf.d/` and add this line then restart the `shell`.
 ```fish
 set -g tide_git_bg_color 268bd2
 set -g tide_git_bg_color_unstable C4A000
@@ -105,7 +105,6 @@ set -g tide_git_untracked_color 000000
 set -g tide_git_upstream_color 000000
 set -g tide_pwd_bg_color 444444
 ```
--  Restart the `shell`.
 3. [Z for Fish](https://github.com/jethrokuan/z#installation) - Directory jumping
 4. [Eza](https://github.com/eza-community/eza) - `ls` replacement
 -  Installing `Eza` on `Ubuntu` or `WSL` there's a three step to install.
@@ -113,11 +112,10 @@ set -g tide_pwd_bg_color 444444
 ```shell
 curl https://sh.rustup.rs -sSf | sh
 ```
-- Second set the path of `Rust` & `Cargo` inside of `fish` by editing the `config.fish` that located on `/.config/fish/` and add this line.
+- Second set the path of `Rust` & `Cargo` inside of `fish` by editing the `config.fish` that located on `/.config/fish/` and add this line then restart the `shell`.
 ```fish
 set -gx PATH $HOME/.cargo/bin $PATH
 ```
-- Restart the `shell`.
 - Third install the `Eza` by running this command on `shell`.
 ```shell
 cargo install eza
