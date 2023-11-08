@@ -117,6 +117,7 @@ curl https://sh.rustup.rs -sSf | sh
 ```fish
 set -gx PATH $HOME/.cargo/bin $PATH
 ```
+- Restart the `shell`.
 - Third install the `Eza` by running this command on `shell`.
 ```shell
 cargo install eza
