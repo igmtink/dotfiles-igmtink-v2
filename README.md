@@ -59,7 +59,7 @@ echo "(this is the location that you get in which fish)" | sudo tee -a /etc/shel
 chsh -s "(this is the location that you get in which fish)"
 ```
 4. Restart the `Ubuntu` to check if the `fish` is already the `default shell`.
-5. Set the path of `brew` inside of `fish` by editing the `config.fish` that located on `/.config/fish/`, you can edit the `config.fish` by running this command in `shell` of `Ubuntu` and add this line.
+5. Set the path of `brew` inside of `fish` by editing the `config.fish` that located on `/.config/fish/`, you can edit the `config.fish` by running this command in `shell` of `Ubuntu`.
 ```shell
 nano ~/.config/fish/config.fish
 ```
@@ -113,7 +113,7 @@ set -g tide_pwd_bg_color 444444
 ```shell
 curl https://sh.rustup.rs -sSf | sh
 ```
-- Second set the path of `Rust` & `Cargo` inside of `fish` by editing the `config.fish` that located on `/.config/fish/`, you can edit the `config.fish` by running this command in `shell` and add this line.
+- Second set the path of `Rust` & `Cargo` inside of `fish` by editing the `config.fish` that located on `/.config/fish/` and add this line.
 ```fish
 set -gx PATH $HOME/.cargo/bin $PATH
 ```
