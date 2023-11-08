@@ -120,7 +120,7 @@ set -gx PATH $HOME/.cargo/bin $PATH
 ```shell
 cargo install eza
 ```
-- After installation set the aliases for `Eza` by editing the `config.fish` that located on `/.config/fish/` and add this line.
+- After installation set the aliases for `Eza` by editing the `config.fish` that located on `/.config/fish/` and add this line then restart the `shell`.
 ```fish
 if type -q eza
   alias ll "eza -l -g --icons"
