@@ -1,8 +1,10 @@
-# WSL + HOMEBREW + FISH
+# Turn your Windows into Mac programming work space
 
 ![Screenshot 2023-11-12 204813](https://github.com/igmtink/dotfiles-igmtink-v2/assets/117252369/b4b10769-d4ec-457c-ba12-54b6c55e96ef)
 
-## WSL - Installation
+## WSL + HOMEBREW + FISH
+
+### WSL - Installation
 1. Go to `Turn Windows features on or off` by searching the name in `Control Panel`.
 2. Turn on this features `Virtual Machine Platform`, `Windows Hypervisor Platform`, & `Windows Subsystem for Linux`.
 3. Restart your pc.
@@ -20,31 +22,31 @@ wls --update
 ```
 7. After the update, open `Ubuntu` to continue the installation.
 
-## Homebrew - Installation
+### Homebrew - Installation
 1. Install homebrew by running this command in `shell` of `Ubuntu` or go to [Homebrew](https://brew.sh/).
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-## Git - Installation
+### Git - Installation
 1. Run this command in `shell` of `Ubuntu`.
 ```shell
 brew install git
 ```
 
-## Node - Installation
+### Node - Installation
 1. Run this command in `shell` of `Ubuntu`.
 ```shell
 brew install node
 ```
 
-## PNPM - Installation
+### PNPM - Installation
 1. Run this command in `shell` of `Ubuntu`.
 ```shell
 brew install pnpm
 ```
 
-## Fish - Installation
+### Fish - Installation
 1. Run this command in `shell` of `Ubuntu`.
 ```shell
 brew install fish
@@ -80,7 +82,7 @@ end
 ```
 7. After setting the path of `brew` inside of `fish` we can now run all packages that we installed using `brew` like `pnpm`, `npm`, & `pnpm`
 
-## Fish - Plugins
+### Fish - Plugins
 1. [Fisher](https://github.com/jorgebucaran/fisher#installation) - Plugin Manager
 2. [Tide](https://github.com/IlanCosman/tide#installation) - Fish Shell theme
 -  After installation copy this config for the custom themes by editing the `_tide_init.fish` located on `~/.config/fish/conf.d/` and add this line then restart the `shell`.
