@@ -1,5 +1,7 @@
 # WSL + HOMEBREW + FISH
 
+![Screenshot 2023-11-12 204813](https://github.com/igmtink/dotfiles-igmtink-v2/assets/117252369/b4b10769-d4ec-457c-ba12-54b6c55e96ef)
+
 ## WSL - Installation
 1. Go to `Turn Windows features on or off` by searching the name in `Control Panel`.
 2. Turn on this features `Virtual Machine Platform`, `Windows Hypervisor Platform`, & `Windows Subsystem for Linux`.
